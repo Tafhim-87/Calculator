@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <td colspan="4">
+            <input type="text" id="ipt" placeholder="00" />
+          </td>
+        </tr>
+        <tr>
+          <td><button onclick="deleteMe()" class="box2">c</button></td>
+          <td><button onclick="calculator('(')" class="box">(</button></td>
+          <td><button onclick="calculator(')')" class="box">)</button></td>
+          <td><button onclick="calculator('/')" class="box">/</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="calculator('7')">7</button></td>
+          <td><button onclick="calculator('8')">8</button></td>
+          <td><button onclick="calculator('9')">9</button></td>
+          <td><button onclick="calculator('*')" class="box">*</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="calculator('4')">4</button></td>
+          <td><button onclick="calculator('5')">5</button></td>
+          <td><button onclick="calculator('6')">6</button></td>
+          <td><button onclick="calculator('-')" class="box">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="calculator('1')">1</button></td>
+          <td><button onclick="calculator('2')">2</button></td>
+          <td><button onclick="calculator('3')">3</button></td>
+          <td><button onclick="calculator('+')" class="box">+</button></td>
+        </tr>
+        <tr class="last">
+          <td><button onclick="calculator('00')">00</button></td>
+          <td><button onclick="calculator('0')">0</button></td>
+          <td><button onclick="calculator('.')">.</button></td>
+          <td><button onclick="result()" class="box">=</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
